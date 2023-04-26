@@ -1,0 +1,25 @@
+.shapeClass {
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.sideBarClass {
+    padding-top: 10px;
+}
+
+.p-fileupload {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.p-button.p-fileupload-choose {
+    height: 42px;
+}
+
+.parentSideBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}

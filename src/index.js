@@ -1,13 +1,35 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Home from "./components/Home/home";
+import Flow from "./components/Flow/flow";
+import reportWebVitals from "./reportWebVitals";
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import store from "./store";
+import { Provider } from "react-redux";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const RouteApp = () => {
+  return (
+    <Router>
+      <App />
+      <Routes>
+        <Route exact path="/home" Component={Home} />
+        <Route exact path="/workflow-create/:id" Component={Flow} />
+      </Routes>
+    </Router>
+  );
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <RouteApp />
+    </Provider>
   </React.StrictMode>
 );
 

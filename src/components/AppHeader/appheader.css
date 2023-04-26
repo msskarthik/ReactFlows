@@ -1,0 +1,17 @@
+.spanHeader {
+    font-weight: bold;
+    color: #8657FB;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.header {
+    height: 7vh;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}

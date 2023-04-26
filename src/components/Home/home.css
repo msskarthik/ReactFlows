@@ -1,0 +1,27 @@
+.spanHeader {
+    text-decoration: none;
+}
+
+
+.headerCardClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeCardClass {
+    margin: 20px;
+}
+
+.linkClass:hover {
+    text-decoration:underline !important;
+}
+
+.card {
+    margin: 10px;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    padding: 0rem 1rem !important;
+}

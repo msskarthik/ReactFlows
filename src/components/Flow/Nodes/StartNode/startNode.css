@@ -1,0 +1,37 @@
+.p-card .p-card-title {
+    font-size: 12px !important;
+}
+
+.selectedClass {
+    font-size: 16px;
+    margin: 0;
+}
+
+.p-card .p-card-content {
+    padding: 0% !important;
+}
+
+.styleClass {
+    width: 16px;
+    height: 16px;
+    background: #0870D9;
+}
+
+.customClass {
+    display: none !important;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    top: -6px;
+    background: #f72424;
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 12px;
+    right: -8px;
+}
+
+
+.CardClass :hover .customClass{
+    display: block !important;
+}

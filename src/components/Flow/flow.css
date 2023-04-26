@@ -1,0 +1,30 @@
+.flowGraphClass {
+    width: 80vw;
+    height: 88vh;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+}
+
+.flowPageClass {
+    height: 92vh;
+    display: grid;
+    grid-template-columns: 18% 82%;
+}
+
+.react-flow__attribution a {
+    display: none !important;
+}
+
+.wrapperClass {
+    height: 100%;
+}
+
+.react-flow {
+    background-color: #eeeeed;
+}
+
+.react-flow__edge-path {
+    stroke: #0870D9 !important;
+    stroke-width: 2px !important;
+}

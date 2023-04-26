@@ -1,0 +1,24 @@
+.styleClass {
+    width: 16px;
+    height: 16px;
+    background: #0870D9;
+}
+
+.customClass {
+    /* display: none !important; */
+    float: right;
+    position: relative;
+    cursor: pointer;
+    top: -6px;
+    background: #f72424;
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 12px;
+    right: -8px;
+}
+
+
+/* .CardClass :hover .customClass{
+    display: block !important;
+} */
